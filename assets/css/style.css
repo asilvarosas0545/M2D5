@@ -10762,11 +10762,21 @@ body {
 }
 
 .header {
-  height: 30vh;
   background-image: url("../img/image-banner.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  height: 10vh;
+}
+@media (min-width: 576px) {
+  .header {
+    height: 20vh;
+  }
+}
+@media (min-width: 768px) {
+  .header {
+    height: 30vh;
+  }
 }
 
 .author__img-small {

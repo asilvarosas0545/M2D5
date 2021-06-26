@@ -1,8 +1,14 @@
 // layout header
 .header{
-  height: 30vh;
   background-image: url('../img/image-banner.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  height: 10vh;
+  @include phone-view{
+    height: 20vh;
+  }
+  @include laptop-view{
+    height: 30vh;
+  }
 }
