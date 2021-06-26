@@ -1,0 +1,10 @@
+@mixin laptop-view {
+  @media (min-width: #{$min-laptop}) {
+    @content;
+  }
+}
+@mixin phone-view {
+  @media (min-width: #{$min-phone}) {
+    @content;
+  }
+}

@@ -1,0 +1,9 @@
+.navbar{
+  &__title{
+    font-weight: bold;
+  }
+  &__art{
+    font-size: $font-size-x-small;
+    top: -2em;
+  }
+}
